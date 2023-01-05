@@ -1,0 +1,225 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PDFManager/1.0.0": {
+        "dependencies": {
+          "MaterialDesignThemes": "4.6.1",
+          "Syncfusion.DocToPDFConverter.Wpf": "20.4.0.42",
+          "Syncfusion.Pdf.Wpf": "20.4.0.42",
+          "System.Drawing.Primitives": "4.3.0"
+        },
+        "runtime": {
+          "PDFManager.dll": {}
+        }
+      },
+      "MaterialDesignColors/2.0.9": {
+        "runtime": {
+          "lib/net6.0/MaterialDesignColors.dll": {
+            "assemblyVersion": "2.0.9.0",
+            "fileVersion": "2.0.9.0"
+          }
+        }
+      },
+      "MaterialDesignThemes/4.6.1": {
+        "dependencies": {
+          "MaterialDesignColors": "2.0.9"
+        },
+        "runtime": {
+          "lib/net6.0/MaterialDesignThemes.Wpf.dll": {
+            "assemblyVersion": "4.6.1.0",
+            "fileVersion": "4.6.1.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.NETCore.Targets/1.1.0": {},
+      "Syncfusion.Compression.Base/20.4.0.42": {
+        "runtime": {
+          "lib/net6.0-windows7.0/Syncfusion.Compression.Base.dll": {
+            "assemblyVersion": "20.4600.0.42",
+            "fileVersion": "20.4600.0.42"
+          }
+        }
+      },
+      "Syncfusion.DocIO.Wpf/20.4.0.42": {
+        "dependencies": {
+          "Syncfusion.Compression.Base": "20.4.0.42",
+          "Syncfusion.Licensing": "20.4.0.42",
+          "Syncfusion.OfficeChart.Base": "20.4.0.42"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Syncfusion.DocIO.Base.dll": {
+            "assemblyVersion": "20.4600.0.42",
+            "fileVersion": "20.4600.0.42"
+          }
+        }
+      },
+      "Syncfusion.DocToPDFConverter.Wpf/20.4.0.42": {
+        "dependencies": {
+          "Syncfusion.Compression.Base": "20.4.0.42",
+          "Syncfusion.DocIO.Wpf": "20.4.0.42",
+          "Syncfusion.Pdf.Wpf": "20.4.0.42"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Syncfusion.DocToPdfConverter.Base.dll": {
+            "assemblyVersion": "20.4600.0.42",
+            "fileVersion": "20.4600.0.42"
+          }
+        }
+      },
+      "Syncfusion.Licensing/20.4.0.42": {
+        "runtime": {
+          "lib/net6.0-windows7.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "20.4600.0.42",
+            "fileVersion": "20.4600.0.42"
+          }
+        }
+      },
+      "Syncfusion.OfficeChart.Base/20.4.0.42": {
+        "dependencies": {
+          "Syncfusion.Compression.Base": "20.4.0.42"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Syncfusion.OfficeChart.Base.dll": {
+            "assemblyVersion": "20.4600.0.42",
+            "fileVersion": "20.4600.0.42"
+          }
+        }
+      },
+      "Syncfusion.Pdf.Wpf/20.4.0.42": {
+        "dependencies": {
+          "Syncfusion.Compression.Base": "20.4.0.42",
+          "Syncfusion.Licensing": "20.4.0.42"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Syncfusion.Pdf.Base.dll": {
+            "assemblyVersion": "20.4600.0.42",
+            "fileVersion": "20.4600.0.42"
+          }
+        }
+      },
+      "System.Drawing.Primitives/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0"
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "System.Runtime.Extensions/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PDFManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MaterialDesignColors/2.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b4tdvxPZUCKCpxeCNFnF/+2Hug2cd+/SUGYCt+RXRRrobFYZkZQsIjlbsTGy5Hup9yPMMxqFSEXGRIxCm2JZUA==",
+      "path": "materialdesigncolors/2.0.9",
+      "hashPath": "materialdesigncolors.2.0.9.nupkg.sha512"
+    },
+    "MaterialDesignThemes/4.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Yx3RxIqkwoe1rYxoUZ2iH1YdCly+dA8YAQJ5uknsUVhyVd1rgiXEn6fmtsovGaqKRZwUXGHnh4w7kRagxa8TCg==",
+      "path": "materialdesignthemes/4.6.1",
+      "hashPath": "materialdesignthemes.4.6.1.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Syncfusion.Compression.Base/20.4.0.42": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-glFXMq2ST0nAHvD7sRgMVRzWVIDNdGdry0y/rv04C/wbw3eeI+5NJBATcB9/II9kWfRX34AsAswJZpMuwnXcIg==",
+      "path": "syncfusion.compression.base/20.4.0.42",
+      "hashPath": "syncfusion.compression.base.20.4.0.42.nupkg.sha512"
+    },
+    "Syncfusion.DocIO.Wpf/20.4.0.42": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vZHkd53VlMHRWRtDa5usXl22xO4bHHpGj3jt3nPoTZtxqFaq175s9ffy3GGvKBFzr9O4EeJwkRbVSPJlTH/uZg==",
+      "path": "syncfusion.docio.wpf/20.4.0.42",
+      "hashPath": "syncfusion.docio.wpf.20.4.0.42.nupkg.sha512"
+    },
+    "Syncfusion.DocToPDFConverter.Wpf/20.4.0.42": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-foK7kn0mTfzyMaASydgw9x/zdoRJE+LodjatTHqJcMyiUMLlySmD/l1DcLTCGrW808xIsMI4cuIfBAIwhWgurg==",
+      "path": "syncfusion.doctopdfconverter.wpf/20.4.0.42",
+      "hashPath": "syncfusion.doctopdfconverter.wpf.20.4.0.42.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/20.4.0.42": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6sboDctByhE5JrCxiowIqMQ/8t89WQ3Jx9U09SBJ1a976H4n1CEvex73rDinU7WhlEGs6xmaM/bObYsOBd2Xmg==",
+      "path": "syncfusion.licensing/20.4.0.42",
+      "hashPath": "syncfusion.licensing.20.4.0.42.nupkg.sha512"
+    },
+    "Syncfusion.OfficeChart.Base/20.4.0.42": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n4lQWachv546+WgAWa0aj6KHDckR1HoydCzoDdZVsKrLecJO5hg9LowM1d54TmaCLlO5hLv8Zg/V6BfWGt2jXw==",
+      "path": "syncfusion.officechart.base/20.4.0.42",
+      "hashPath": "syncfusion.officechart.base.20.4.0.42.nupkg.sha512"
+    },
+    "Syncfusion.Pdf.Wpf/20.4.0.42": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eI8JPa4//+sxEvu8XUb9dcRWQOQQeH6piTG1O+mY4Py5y0c/pTZAbcgyCgJoe2qyCpnUKj4jzWce2iiivNDLOA==",
+      "path": "syncfusion.pdf.wpf/20.4.0.42",
+      "hashPath": "syncfusion.pdf.wpf.20.4.0.42.nupkg.sha512"
+    },
+    "System.Drawing.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1QU/c35gwdhvj77fkScXQQbjiVAqIL3fEYn/19NE0CV/ic5TN5PyWAft8HsrbRd4SBLEoErNCkWSzMDc0MmbRw==",
+      "path": "system.drawing.primitives/4.3.0",
+      "hashPath": "system.drawing.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.Extensions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-guW0uK0fn5fcJJ1tJVXYd7/1h5F+pea1r7FLSOz/f8vPEqbR2ZAknuRDvTQ8PzAilDveOxNjSfr0CHfIQfFk8g==",
+      "path": "system.runtime.extensions/4.3.0",
+      "hashPath": "system.runtime.extensions.4.3.0.nupkg.sha512"
+    }
+  }
+}
