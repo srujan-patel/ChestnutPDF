@@ -12,9 +12,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <COMReference Include="{bee4bfec-6683-3e67-9167-3c0cbc68f40a}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>4</VersionMinor>
+      <VersionMajor>2</VersionMajor>
+      <Guid>bee4bfec-6683-3e67-9167-3c0cbc68f40a</Guid>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspose.PDF" Version="22.12.0" />
     <PackageReference Include="MaterialDesignThemes" Version="4.6.1" />
-    <PackageReference Include="Syncfusion.DocToPDFConverter.Wpf" Version="20.4.0.42" />
-    <PackageReference Include="Syncfusion.Pdf.Wpf" Version="20.4.0.42" />
     <PackageReference Include="System.Drawing.Primitives" Version="4.3.0" />
   </ItemGroup>
 

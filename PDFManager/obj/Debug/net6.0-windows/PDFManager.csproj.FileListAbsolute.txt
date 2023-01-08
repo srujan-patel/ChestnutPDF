@@ -5,12 +5,6 @@ C:\Users\Srujan Patel\ChestnutPDF\PDFManager\bin\Debug\net6.0-windows\PDFManager
 C:\Users\Srujan Patel\ChestnutPDF\PDFManager\bin\Debug\net6.0-windows\PDFManager.pdb
 C:\Users\Srujan Patel\ChestnutPDF\PDFManager\bin\Debug\net6.0-windows\MaterialDesignColors.dll
 C:\Users\Srujan Patel\ChestnutPDF\PDFManager\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
-C:\Users\Srujan Patel\ChestnutPDF\PDFManager\bin\Debug\net6.0-windows\Syncfusion.Compression.Base.dll
-C:\Users\Srujan Patel\ChestnutPDF\PDFManager\bin\Debug\net6.0-windows\Syncfusion.DocIO.Base.dll
-C:\Users\Srujan Patel\ChestnutPDF\PDFManager\bin\Debug\net6.0-windows\Syncfusion.DocToPdfConverter.Base.dll
-C:\Users\Srujan Patel\ChestnutPDF\PDFManager\bin\Debug\net6.0-windows\Syncfusion.Licensing.dll
-C:\Users\Srujan Patel\ChestnutPDF\PDFManager\bin\Debug\net6.0-windows\Syncfusion.OfficeChart.Base.dll
-C:\Users\Srujan Patel\ChestnutPDF\PDFManager\bin\Debug\net6.0-windows\Syncfusion.Pdf.Base.dll
 C:\Users\Srujan Patel\ChestnutPDF\PDFManager\obj\Debug\net6.0-windows\PDFManager.csproj.AssemblyReference.cache
 C:\Users\Srujan Patel\ChestnutPDF\PDFManager\obj\Debug\net6.0-windows\MainWindow.g.cs
 C:\Users\Srujan Patel\ChestnutPDF\PDFManager\obj\Debug\net6.0-windows\App.g.cs
@@ -29,3 +23,10 @@ C:\Users\Srujan Patel\ChestnutPDF\PDFManager\obj\Debug\net6.0-windows\PDFManager
 C:\Users\Srujan Patel\ChestnutPDF\PDFManager\obj\Debug\net6.0-windows\PDFManager.genruntimeconfig.cache
 C:\Users\Srujan Patel\ChestnutPDF\PDFManager\obj\Debug\net6.0-windows\ref\PDFManager.dll
 C:\Users\Srujan Patel\ChestnutPDF\PDFManager\obj\Debug\net6.0-windows\App.baml
+C:\Users\Srujan Patel\ChestnutPDF\PDFManager\obj\Debug\net6.0-windows\PDFManager.csproj.ResolveComReference.cache
+C:\Users\Srujan Patel\ChestnutPDF\PDFManager\bin\Debug\net6.0-windows\Aspose.PDF.dll
+C:\Users\Srujan Patel\ChestnutPDF\PDFManager\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Srujan Patel\ChestnutPDF\PDFManager\bin\Debug\net6.0-windows\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Srujan Patel\ChestnutPDF\PDFManager\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\Srujan Patel\ChestnutPDF\PDFManager\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Srujan Patel\ChestnutPDF\PDFManager\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll

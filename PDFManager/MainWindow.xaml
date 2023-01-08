@@ -17,7 +17,7 @@
         Background="{DynamicResource MaterialDesignBackground}"
         FontFamily="{DynamicResource MaterialDesignFont}"
         
-        Title="Chestnut PDF" Height="400" Width="650" FontSize="18" >
+        Title="Chestnut PDF" Height="500" Width="650" FontSize="18" >
     
     
     <Grid>
@@ -58,12 +58,13 @@
         <ComboBox  x:Name="optionsCombobox" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="3" HorizontalAlignment="Center"
   materialDesign:HintAssist.Hint="Select Option">
             <ComboBoxItem
-    Content="DOC to PDF" />
-            <ComboBoxItem
     Content="PDF To DOC" />
+            <ComboBoxItem
+    Content="Image to PDF" />
             <ComboBoxItem
     Content="PNG TO PDF" />
         </ComboBox>
+      
         <Button
                     x:Name="selectFile"
                     Width="150"
@@ -71,6 +72,7 @@
           Grid.Column="1"
           Grid.Row="4"
           Content="Select File"
+            Click="selectFile_Click"
           IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
           Style="{StaticResource MaterialDesignRaisedButton}"
           ToolTip="Resource name: MaterialDesignRaisedButton" 
