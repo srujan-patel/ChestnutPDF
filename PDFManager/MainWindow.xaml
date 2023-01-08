@@ -5,35 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:PDFManager"
-        xmlns:syncfusion="http://schemas.syncfusion.com/wpf" x:Class="PDFManager.MainWindow"
+        x:Class="PDFManager.MainWindow"
         x:Name="myMainWindow"
         Icon="pack://application:,,,/Images/Wand.png"
         mc:Ignorable="d"
-        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.Foreground="{DynamicResource MaterialDesignLightForeground}"
         TextElement.FontWeight="Regular"
         TextElement.FontSize="13"
         TextOptions.TextFormattingMode="Ideal"
         TextOptions.TextRenderingMode="Auto"
-        Background="{DynamicResource MaterialDesignBackground}"
+        Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
+        MinHeight="300"
+        MinWidth="500"
         
-        Title="Chestnut PDF" Height="500" Width="650" FontSize="18" >
-    
-    
-    <Grid>
-        <Grid.LayoutTransform>
-            <ScaleTransform
-             x:Name="ApplicationScaleTransform"
-                              CenterX="0"
-                              CenterY="0"
-                          
-                              />
-        </Grid.LayoutTransform>
+        Title="Chestnut PDF" Height="470" Width="650" FontSize="18" 
+        SizeChanged="myMainWindow_SizeChanged">
 
+
+    <Grid x:Name="myGrid">
+        
         <Grid.ColumnDefinitions>
 
             <ColumnDefinition Width="20"/>
-            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="35.494"/>
+            <ColumnDefinition Width="244.506"/>
             <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="*"/>
 
@@ -49,42 +45,47 @@
 
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
-        <WrapPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20">
+        <WrapPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Image Source="pack://application:,,,/Images/Wand.png" Height="60"></Image>
-            <TextBox Text="Chestnut PDF Converter" Foreground="Black" FontSize="30" FontWeight="Bold" Padding="0,10,0,0" BorderBrush="Black"/>
-            
+            <Label Content="Chestnut PDF Converter" Foreground="Black" FontSize="30" FontWeight="Bold" Padding="0,10,0,0" BorderBrush="Black"/>
+
         </WrapPanel>
 
-        <ComboBox  x:Name="optionsCombobox" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="3" HorizontalAlignment="Center"
-  materialDesign:HintAssist.Hint="Select Option">
+        <ComboBox  x:Name="optionsCombobox" Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Center"
+  materialDesign:HintAssist.Hint="Select Option" FontSize="14" Margin="10" >
             <ComboBoxItem
-    Content="PDF To DOC" />
+    Content="PDF To DOC"/>
             <ComboBoxItem
-    Content="Image to PDF" />
+    Content="Image to PDF"/>
             <ComboBoxItem
-    Content="PNG TO PDF" />
+    Content="HTML To PDF"/>
+            <ComboBoxItem
+    Content="LaTex To PDF"/>
+            <ComboBoxItem
+    Content="EPUB To PDF"/>
         </ComboBox>
-      
+
+
         <Button
                     x:Name="selectFile"
                     Width="150"
                    Height="40"
-          Grid.Column="1"
+          Grid.Column="2"
           Grid.Row="4"
           Content="Select File"
             Click="selectFile_Click"
           IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
           Style="{StaticResource MaterialDesignRaisedButton}"
           ToolTip="Resource name: MaterialDesignRaisedButton" 
-                    Margin="65,50,65,20"/>
-        <TextBox x:Name="pathTextbox" Grid.Column="2" Grid.Row="4" Margin="65,50,65,20" AcceptsReturn="False" TextWrapping="NoWrap" BorderBrush="Black" BorderThickness="1" Width="200"/>
-        <Button Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="3" HorizontalAlignment="Center" FontWeight="Black"
+                    Margin="30,50,65,20"/>
+        <TextBox x:Name="pathTextbox" Grid.Column="3" Grid.Row="4" Margin="65,50,65,20" AcceptsReturn="False" TextWrapping="NoWrap" BorderBrush="Black" BorderThickness="1" Width="200" FontSize="13"/>
+        <Button Grid.Column="2" Grid.Row="5" Grid.ColumnSpan="2" HorizontalAlignment="Center" FontWeight="Black"
     materialDesign:ShadowAssist.ShadowAnimationDuration="0:0:0"
                 Click="ConvertButton_Click"
-    Style="{StaticResource MaterialDesignRaisedAccentButton}">
+    Style="{StaticResource MaterialDesignRaisedAccentButton}" Margin="0,50,0,50">
             Start Conversion
         </Button>
     </Grid>
-    
-    
+
+
 </Window>
