@@ -1303,11 +1303,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Srujan Patel\\ChestnutPDF\\PDFManager\\PDFManager.csproj",
+      "projectUniqueName": "C:\\Users\\Srujan Patel\\Desktop\\ChestnutPDF\\PDFManager\\PDFManager.csproj",
       "projectName": "PDFManager",
-      "projectPath": "C:\\Users\\Srujan Patel\\ChestnutPDF\\PDFManager\\PDFManager.csproj",
+      "projectPath": "C:\\Users\\Srujan Patel\\Desktop\\ChestnutPDF\\PDFManager\\PDFManager.csproj",
       "packagesPath": "C:\\Users\\Srujan Patel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Srujan Patel\\ChestnutPDF\\PDFManager\\obj\\",
+      "outputPath": "C:\\Users\\Srujan Patel\\Desktop\\ChestnutPDF\\PDFManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

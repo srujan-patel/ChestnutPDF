@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cOZwAU4bHlgQarXVV5ggx4pZQtBD+MZPfQnm6GhBGlaAGoz+PGIM1u1bcz1ZuwiXyEmT/wZUUvZH2uQViImoew==",
+  "dgSpecHash": "tAIzbSfY8skOuz45VnivOln+XbuJyFiY8K2IrZQLetM6M/ZJN+DCPvnYm824a1U7PIp+eWHFxgy/HWbGMaOl0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Srujan Patel\\ChestnutPDF\\PDFManager\\PDFManager.csproj",
+  "projectFilePath": "C:\\Users\\Srujan Patel\\Desktop\\ChestnutPDF\\PDFManager\\PDFManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Srujan Patel\\.nuget\\packages\\aspose.pdf\\22.12.0\\aspose.pdf.22.12.0.nupkg.sha512",
     "C:\\Users\\Srujan Patel\\.nuget\\packages\\materialdesigncolors\\2.0.9\\materialdesigncolors.2.0.9.nupkg.sha512",
